@@ -1,10 +1,10 @@
-package edu.csu.leetcode.classic150;
+package edu.csu.leetcode.classic150.MinimumWindowSubstring76;
 
 import java.util.*;
 
 // https://leetcode.cn/problems/substring-with-concatenation-of-all-words/?envType=study-plan-v2&envId=top-interview-150
 
-public class FindSubstring {
+public class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         int n = words.length;
         int m = words[0].length();

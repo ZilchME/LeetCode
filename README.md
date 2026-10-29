@@ -71,5 +71,8 @@ mvn test
 | 139 | [单词拆分](src/main/java/edu/csu/leetcode/problems/hot100/p0139/problems.md) | hot100 |
 | 394 | [字符串解码](src/main/java/edu/csu/leetcode/problems/hot100/p0394/problems.md) | hot100 |
 | 772 | [基本计算器 III](src/main/java/edu/csu/leetcode/problems/hard/p0772/problems.md) | hard，待实现 |
+| 自定义 | [两种商品恰好用完预算的方案数](src/main/java/edu/csu/leetcode/problems/middle/purchasePlans/problems.md) | middle，完全背包 |
+
+没有力扣题号的自定义题，在对应分类下使用描述性目录名，例如 `middle/purchasePlans`。
 
 第 30 题的代码原来误放在 `MinimumWindowSubstring76` 下，现已单独归位。该旧目录的题面和示例数据属于第 76 题，分别迁移至 `p0076` 及 `src/test/resources/leetcode/classic150/p0076`，数据内容原样保留。其余缺失题面仅记录方法签名，未自动补写解法或完整题面。
